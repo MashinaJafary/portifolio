@@ -1,0 +1,38 @@
+
+/*About Css */
+#about{
+    justify-content: space-around;
+}
+#about h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+#about p{
+    color: #E5E5E5;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+li{
+    justify-content: space-between;
+}
+li span:first-child {
+    font-weight: 600;
+    color: #6EC5B8;
+    width: 130px;
+}
+/* skills */
+#skills{
+    flex-direction: column;
+}
+#akills>div{
+    align-items: center;
+}
+#skills h2{
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #FFAC00;
+   
+}
+
+/**/

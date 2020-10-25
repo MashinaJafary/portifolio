@@ -75,6 +75,8 @@ li,a{
 /*About Css */
 #about{
     justify-content: space-around;
+    padding-top: 10%;
+    padding-bottom: 18%;
 }
 #about h2{
     font-size: 50px;
@@ -94,5 +96,23 @@ li span:first-child {
     width: 130px;
 }
 
-
+/* skills */
+#skills{
+    flex-direction: column;
+    justify-content: center;
+}
+#skills>div{
+    /* text-align: center; */
+}
+#skills h2{
+    font-weight: 800;
+    font-size: 3rem;
+    /* margin-bottom: 30px; */
+    /* color: #FFAC08; */
+   
+}
+.innerdiv{
+    align-self: center;
+    justify-content: space-around;
+}
 /**/
