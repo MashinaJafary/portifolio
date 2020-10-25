@@ -1,0 +1,73 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #242424;
+    font-size: 16px;
+    line-height: 2;
+    color: #999999;
+    text-align: center;
+}/* Home css */
+#home{
+    margin-bottom: 20%;
+}
+.flex{
+    display: flex;
+}
+#logo {
+    color: #FFAC00;
+    font-size: x-large;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    
+}
+header{
+    flex-direction: row;
+    justify-content: space-between;
+}
+#nav>ul{
+list-style-type: none;
+}
+li,a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem;
+    color: #999999;
+}
+.subheading{
+    color: #FFAC00;
+    font-size: 2rem;
+}
+/* for text animate/rotate*/
+
+#rotate::before { 
+    content: "Software Development."; 
+    animation: rotate infinite 4s; 
+    padding-left: 10px;
+    color: #FFAC00;
+    font-size: 2rem;
+} 
+@keyframes rotate { 
+
+    0% { 
+        content: "Coding."; 
+    } 
+    25% { 
+        content: "Software Development."; 
+    } 
+
+    50% { 
+        content: "CyberSecurity."; 
+    } 
+    60% {
+        content: "AI";
+    } 
+    65% {
+        content: "ML";
+    }
+
+    75% { 
+        content: "Problem Solving."; 
+    } 
+    100% {
+        content: "Books.";
+    }
+} 
