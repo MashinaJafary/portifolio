@@ -1,3 +1,98 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* //CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* //CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* //CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* //CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+  
+  }
+
+#nav {
+    overflow: hidden;
+    background-color: rgb(245, 237, 237);
+    position: relative;
+  }
+  #navlinks{
+      display: none;
+  }
+    
+  #navlinks a{
+
+    display: block;
+    color: white;
+}
+#nav a.icon{
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  
+
+
+
+
 body {
     font-family: "Poppins", Arial, sans-serif;
     /* background: #242424; */
@@ -18,6 +113,7 @@ body {
     font-size: x-large;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
+    
     
 }
 header{

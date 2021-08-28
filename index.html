@@ -3,24 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>JafaryMashina</title>
-    <link href="styles.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+
+<link href="styles.css" rel="stylesheet">
 </head>
-<body>
-    <header class="flex" id="">
+<br>
+    <header class="flex fixed-top" id="">
         <div id="logo"><a id="logo" href="index.html">JafaryMashina</a></div>
-        <div id="nav">
-            <ul>
-                <l><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-                <li><a href="books.html">Books</a></li>
+        <!-- <div id="nav"> -->
+            <div class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- <ul id="navlinks"> -->
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="books.html">Books</a></li>
             </ul>
         </div>
+            <!-- <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+                <i class="fa fa-bars"></i>
+              </a> -->
+        </div>
     </header>
+
+
     <section id="home">
+    </br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
     <span class="subheading"><strong>Hey! I Am</strong> </span>
     <h1>Jafary Mashina</h1>
     <h2>
@@ -28,11 +57,15 @@
         <span id="rotate"></span>
     </h2>
 </section>
+</br>
+</br>
+</br>
+</br>
+ 
 
-
-<section id="about" class="flex">
+<section id="about" class="flex flex-row-reverse">
     <div class="image">
-        <img src="assets/jafarymashina.jpg" width="400rem" alt="JAFARY MASHINA PICTURE">
+        <img class="img-fluid rounded-circle" src="assets/jafarymashina.jpg" width="400rem" alt="JAFARY MASHINA PICTURE">
     </div>
     <div class="details">
         <h2 class="subheading">About Me</h2>
@@ -61,27 +94,48 @@
         </ul>
     </div>
 </section>
-
+</br>
+</br>
 
 <section id="skills" class="flex">
     <h2 class="subheading">Skills</h2>
     <div class="flex innerdiv">
-        <div><img src="assets/bootstrap.png" style="width:5rem;"></div>
-        <div><img src="assets/cplusplus.png" style="width:5rem;"></div>
-        <div><img src="assets/csharp.png" style="width:5rem;"></div>
-        <div><img src="assets/css.png" style="width:5rem;"></div>
-        <div><img src="assets/html.png" style="width:5rem;"></div>
-        <div><img src="assets/photoshop.png" style="width:5rem;"></div>
+
+        <div><img class="img-fluid rounded-circle" src="assets/laravel.png" style="width:13rem;"></div>
+        <div><img class="img-fluid rounded-circle" src="assets/bootstrap.png" style="width:8rem;"></div>
+        <div><img class="img-fluid rounded-circle" src="assets/cplusplus.png" style="width:8rem;"></div>
+        <div><img class="img-fluid rounded-circle" src="assets/css.png" style="width:8rem;"></div>
+        <div><img class="img-fluid rounded-circle" src="assets/html.png" style="width:8rem;"></div>
+        <div><img class="img-fluid rounded-circle" src="assets/photoshop.png" style="width:8rem;"></div>
     </div>
     <div class="flex innerdiv">
-        <div><img src="assets/illustrator.png" style="width:5rem;"></div>
-        <div><img src="assets/java.png" style="width:5rem;"></div>
-        <div><img src="assets/javascript.png" style="width:5rem;"></div>
-        <div><img src="assets/linux.png" style="width:5rem;"></div>
-        <div><img src="assets/node.png" style="width:5rem;"></div>
+        <div><img class="img-fluid rounded-circle" src="assets/php.png" style="width:6rem;"></div>
+        <div><img class="img-fluid rounded-circle" src="assets/java.png" style="width:6rem;"></div>
+        <div><img class="img-fluid rounded-circle" src="assets/javascript.png" style="width:6rem;"></div>
+        <div><img class="img-fluid rounded-circle" src="assets/linux.png" style="width:6rem;"></div>
+        <div><img class="img-fluid rounded-circle" src="assets/node.png" style="width:6rem;"></div>
+        <div><img class="img-fluid rounded-circle" src="assets/cybersecurity.png" style="width:8rem;"></div>
         
     </div>
 </section>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<script src="portifolio.js"></script>
 
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
